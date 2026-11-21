@@ -1,0 +1,21 @@
+# Streamlit theme of the VitaCheck app (colours taken from app/assets/logo.svg).
+# Streamlit reads this file from the folder where `streamlit run` is launched (project root).
+
+[theme]
+primaryColor = "#0f766e"
+font = "sans serif"
+baseRadius = "0.6rem"
+
+[theme.light]
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f0f7f6"
+textColor = "#12302e"
+
+[theme.dark]
+primaryColor = "#2dd4bf"
+backgroundColor = "#0e1716"
+secondaryBackgroundColor = "#17302d"
+textColor = "#e6f4f2"
+
+[browser]
+gatherUsageStats = false

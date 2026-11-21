@@ -1,0 +1,31 @@
+[project]
+name = "do-course06"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "ZHU Lingxuan", email = "lingxuan.zhu@edu.em-lyon.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "openpyxl>=3.1.5",
+    "pandas>=3.1.1",
+    "ruff>=0.17.5",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.67.0",
+]
+
+[project.scripts]
+do-course06 = "do_course06:main"
+
+[build-system]
+requires = ["uv_build>=0.12.17,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.ruff.lint.per-file-ignores]
+# In files run cell by cell (# %% scripts and notebooks), a bare expression at the
+# end of a cell is intended: it displays the value in the Interactive Window.
+"scripts/02_*.py" = ["B018"]
+"*.ipynb" = ["B018"]
