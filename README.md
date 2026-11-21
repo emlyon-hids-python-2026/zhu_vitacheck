@@ -62,8 +62,8 @@ Main dependencies: `pandas`, `matplotlib`, `openpyxl`, `streamlit` (it also prov
 ## Installation
 
 ```bash
-git clone https://github.com/emlyon-hids-python-2026/do_course06.git
-cd do_course06
+git clone https://github.com/emlyon-hids-python-2026/zhu_vitacheck
+cd zhu_course06
 uv sync          # or: make install
 ```
 
@@ -141,7 +141,7 @@ The files are never read from `data/`: the user always loads them. Full guide: [
 ## Project structure
 
 ```text
-do_course06/
+zhu_course06/
 ├── app/
 │   ├── app.py              # Streamlit app (pipeline, analysis, charts, export, UI)
 │   └── assets/
@@ -157,7 +157,7 @@ do_course06/
 │   ├── demo.py
 │   ├── 02_diabetes_cells.py         # Version 2
 │   └── 03_diabetes_functions.py     # Version 3
-├── src/do_course06/        # Python package (placeholder)
+├── src/zhu_course06/ # Python package (placeholder)
 ├── Makefile
 ├── pyproject.toml
 └── uv.lock
@@ -192,6 +192,4 @@ More in [docs/project_documentation/development.md](docs/project_documentation/d
 
 ## Author
 
-ZHU Lingxuan - [lingxuan.zhu@edu.em-lyon.com]
-#   z h u _ v i t a c h e c k  
- 
+ZHU Lingxuan - [lingxuan.zhu@edu.em-lyon.com](mailto:lingxuan.zhu@edu.em-lyon.com)
